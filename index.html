@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header with Pop-up Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- //////////////////////////////---head---//////////////////////////////-->
+<!-- 
+    <header class="navBar">
+        <div class="container-fluid">
+            <div class="header">
+                <div class="head-in-first">
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon" onclick="toggleSearch()"></i>
+                        <div class="search-popup">
+                            <input type="text" placeholder="Search..." id="searchInput" />
+                        </div>
+                    </div>
+
+                    <div class="head-in-first-sec">
+                        <div><a href="">SEARCH</a></div>
+
+                        <div><a href="">MATTRESS MATCHMAKER</a></div>
+                    </div>
+                </div>
+
+                <div class="center-logo">
+                    <a href="">
+                        <img src="./images/MR Logo 320x65 2.svg" alt="" />
+                    </a>
+                </div>
+
+                <div class="flex-end">
+                    <a href="" class="custom-button filled">STORE LOCATOR</a>
+                </div>
+            </div>
+        </div>
+        <div class="sec-head">
+            <div class="container-fluid">
+                <div class="sec-head-in">
+                    <ul class="flex-btw">
+                        <li><a href="">who we are</a></li>
+                        <li><a href="">Brands</a></li>
+                        <li><a href="">mattresses</a></li>
+                        <li><a href="">beds & bases</a></li>
+                        <li><a href="">Commercial</a></li>
+                        <li><a href="">sleep lab</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">customer care</a></li>
+                        <li><a href="">Mattress matchmaker</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+
+    <header class="head-res">
+        <div class="container-fluid">
+          <div class="header-in">
+            <div class="header-in-top">
+              <div class="header-left">
+                <div class="header-left-in">
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon" onclick="toggleSearch()"></i>
+                        <div class="search-popup" id="searchPopup">
+                            <div class="search-box">
+                                <input type="text" placeholder="Search..." id="searchInput" />
+                                <button id="searchButton">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  <div class="search-text">
+                <a href="#">who we are</a>
+
+                  </div>
+                </div>
+                <div class="header-left-text">
+                    <a href="#">mattress matchmaker</a>
+
+                </div>
+              </div>
+              <div class="header-center">
+                <div class="header-logo">
+                  <img src="./images/MR Logo 320x65 2 (1).svg" alt="logo" />
+                </div>
+              </div>
+              <div class="header-right">
+                <a class="btn-white">STORE LOCATOR</a>
+              </div>
+              <div class="toggle-icon">
+                <div class="menu-icon">
+                  <img src="./images/menu.png" />
+                </div>
+                <div class="close-icon">
+                  <img src="./images/close.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="header-in-bottom">
+              <div class="header-list">
+                <ul>
+                  <li><a href="#">who we are</a></li>
+                  <li><a href="#">Brands</a></li>
+                  <li><a href="#">mattresses</a></li>
+                  <li><a href="#">beds & bases</a></li>
+                  <li><a href="#">Commercial</a></li>
+                  <li><a href="#">sleep lab</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                  <li><a href="#">customer care</a></li>
+                  <li><a href="#">Mattress matchmaker</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+
+    <section class="mobile-nav">
+        <div class="container-fluid">
+          <div class="mobile-nav-in">
+            <div class="mobile-nav-top">
+              <ul>
+                <li><a href="#">who we are</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">mattresses</a></li>
+                <li><a href="#">beds & bases</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">sleep lab</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">customer care</a></li>
+                <li><a href="#">Mattress matchmaker</a></li>
+              </ul>
+            </div>
+            <!-- <div class="mobile-nav-bottom">
+              <a class="btn-white">STORE LOCATOR</a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+    <!-- //////////////////////////////---end---//////////////////////////////-->
+
+    <!-- //////////////////////////////---MSR-SEC---//////////////////////////////-->
+
+    <!-- //////////////////////////////---MSR-SEC-end---//////////////////////////////-->
+
+    <!-- <--------------MSR-3RD-STR---------//// -->
+
+    <section>
+        <div class="thr-in">
+            <div class="thr-img">
+                <img src="./images/Rectangle 2607.png" alt="" />
+            </div>
+            <div class="thr-img-content">
+                <div class="container">
+                    <div class="th-in-content">
+                        <div class="th-in-content-one">
+                            <h1 class="white">Mattress</h1>
+                            <h1 class="white">Resources</h1>
+                            <h1 class="white">Australia</h1>
+                        </div>
+                        <div class="th-in-content-two">
+                            <p class="white">
+                                Welcome to Mattress Resources Australia, home to successful
+                                sleep solutions for over 50 years.
+                            </p>
+                            <p class="white">
+                                We manufacture our products to the highest standards here in
+                                Australia because we know life can be a lot sometimes, and you
+                                deserve the deeper, more revitalising sleep that comes from
+                                superior bedding.
+                            </p>
+
+                        </div>
+
+                        <div class="th-in-content-thr">
+                            <p class="white">Start your journey to better sleep with us today!</p>
+                            <div>
+                                <a href="" class="custom-button filled">STORE LOCATOR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <--------------MSR-3RD-end---------//// -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- --///---4th start---///-- -->
+
+    <section class="fr-bg">
+        <div class="container">
+            <div class="fr-in">
+                <div class="fr-main-cen">
+                    <div class="fr-gap">
+
+                        <div class="fr-one-text">
+                            <p class="p-italic">Excellence Guaranteed</p>
+                            <h2>Our Australian Craftsmanship and Royal Seal</h2>
+                        </div>
+                        <div class="fr-two-text">
+                            <p>By choosing Mattress Resources Australia for your bedding needs, you're not only
+                                investing in your best sleep but also supporting Australian manufacturing. Our products
+                                adhere to rigorous Australian quality standards, promote sustainability, and boost the
+                                local economy.</p>
+                            <p>We’re also proud suppliers of best-selling mattress brands from around the world, like
+                                Hypnos, the exclusive bed maker for all British Royal residences. They hold a Royal
+                                Warrant from Her Majesty Queen Elizabeth II, acknowledging the quality and excellence of
+                                their mattresses and beds supplied to all British Royal residences. </p>
+                        </div>
+                    </div>
+                    <div class="fr-logo">
+                        <div class="fr-lg-one">
+                            <img src="./images/image 205 (1).svg" alt="">
+                        </div>
+                        <div class="fr-lg-one">
+                            <img src="./images/image 211.svg" alt="">
+
+                        </div>
+                        <div class="fr-lg-one">
+                            <img src="./images/image 204.svg" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --///---4th end---///-- -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- --///---5th str---///-- -->
+
+    <section class="fi-res">
+        <div class="fi-in">
+            <div class="fi-cont-one">
+                <div class="container-fluid">
+                    <div class="fi-con-str">
+                        <div class="padding-one">
+
+                            <h2>Over 50 Years of Mattress Mastery</h2>
+                            <p>We're not shy in saying that we're leaders in the bedding industry thanks to half a
+                                century of unwavering commitment to innovation, quality, and customer satisfaction.</p>
+                        </div>
+                        <div class="padding-two">
+
+                            <p>We supply to both independent retailers and major chains to help create a diverse and
+                                competitive marketplace, giving you access to more products and price points.</p>
+                            <p>Need more convincing to jump into a Mattress Resources Australia bed?</p>
+                            <p>We won the Bedbuyer Award in 2021 and 2022 from Bedbuyer, an independent Australian
+                                mattress review website. Their team of health professionals awards mattresses based on
+                                comfort, support, build quality, and value for money.</p>
+                        </div>
+                        <div class="padding-thr">
+                            <a href="" class="custom-button filledblue">read about us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fi-img-one">
+                <img src="./images/Rectangle 2615.png" alt="">
+            </div>
+            <div class="center-img-one">
+                <img src="./images/Rectangle 2616 (1).png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --///---5th end---///-- -->
+
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- --///---6th str---///-- -->
+
+    <section class="six-bg">
+        <div class="container-fluid">
+            <div class="six-th-in">
+                <div class="six-txt-one heading">
+                    <span class="heading">Elite Comfort</span>
+                    <h2>Explore Our Prestigious Partner Brands</h2>
+                    <p>We only partner with the best in the business.</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="six-img-hvr flex-btw">
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621.png" alt="">
+                        </div>
+                        <div class="six-context flex-col-one">
+                            <h3 class="white">Therapedic</h3>
+                            <span class="span-tx">"The mattress sleeping the world" since 1957. They hold the coveted
+                                Mattress Design Award for engineering innovation, quality, and value.</span>
+                            <div>
+                                <a href="" class="custom-button filledyellow">EXPLORE PRODUCTS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621 (1).png" alt="">
+
+                        </div>
+                        <div class="six-context flex-col-one">
+                            <h3 class="white">Hypnos</h3>
+                            <span class="span-tx">Hypnos has been crafting "the most comfortable beds in the world" for
+                                120 years. Their customers include the British royal family!</span>
+                            <div>
+                                <a href="" class="custom-button filledyellow">EXPLORE PRODUCTS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621 (2).png" alt="">
+                        </div>
+                        <div class="six-context flex-col-one">
+                            <h3 class="white">Tommy Bahamas</h3>
+                            <span class="span-tx">Life is "one long weekend" with these mattresses, designed to
+                                captivate a feeling of relaxation and island living.</span>
+                            <div>
+                                <a href="" class="custom-button filledyellow">EXPLORE PRODUCTS</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --///---6th end---///-- -->
+
+    <!-- --///---7th str---///-- -->
+
+    <section class="seven-bg">
+        <div class="container-fluid">
+            <div class="six-th-in">
+                <div class="six-txt-one heading white">
+                    <span class="white">Select Your Sanctuary</span>
+                    <h2>Premium Mattresses and Bedding Essentials</h2>
+                    <span class="span-tx max-span-w">Immerse yourself in our Featured Products collection, where
+                        sophistication meets comfort. Explore an array of meticulously crafted mattresses.</span>
+                </div>
+                <div class="six-img-hvr flex-btw">
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621 (3).png" alt="">
+                        </div>
+                        <div class="six-context flex-col">
+                            <h3 class="white">Mattresses</h3>
+                            <span class="span-tx">Our mattress ranges incorporate various technologies and advanced
+                                materials to help you fall asleep, stay asleep,</span>
+
+                        </div>
+                    </div>
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621 (4).png" alt="">
+
+                        </div>
+                        <div class="six-context flex-col">
+                            <h3 class="white">Bases and Headboards</h3>
+                            <span class="span-tx">Our mattress ranges incorporate various technologies and advanced
+                                materials to help you fall asleep, stay asleep,</span>
+
+                        </div>
+                    </div>
+                    <div class="six-hvr">
+
+                        <div class="six-hvr-img">
+                            <img src="./images/Rectangle 2621 (5).png" alt="">
+                        </div>
+                        <div class="six-context flex-col">
+                            <h3 class="white">Adjustable Beds</h3>
+                            <span class="span-tx">Our mattress ranges incorporate various technologies and advanced
+                                materials to help you fall asleep, stay asleep,</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --///---7th end---///-- -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- --///---8th str---///-- -->
+
+
+    <section>
+        <div class="thr-in">
+            <div class="thr-img">
+                <img src="./images/Rectangle 2615 (1).png" alt="" />
+            </div>
+            <div class="center-img-one">
+                <img src="./images/Rectangle 2617.png" alt="">
+            </div>
+            <div class="thr-img-content-sec">
+                <div class="container">
+                    <div class="th-in-content-sec">
+                        <div class="th-in-content-one">
+                            <h2 class="blackA1">Our Commercial</h2>
+                            <h2 class="blackA1">Collections</h2>
+                        </div>
+                        <div class="th-in-content-two">
+                            <p class="blackgr">
+                                We supply our durable commercial mattresses, headboards and base sets to various clients
+                                in the hospitality industry, including hotels, motels, boutique guest houses, retirement
+                                homes, and universities.
+                            </p>
+                            <p class="blackgr">
+                                Our flexible options include bed heights that accommodate existing furnishings and
+                                bedding, glide and castor bed legs in various heights. We offer mattresses featuring
+                                fire-retardant fabrics, along with bases available in all sizes.
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <a href="" class="custom-button filledblue">explore Commercial products</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --///---8th end---///-- -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+    <!-- --///---9th str---///-- -->
+
+    <section class="nine-bg">
+        <div class="container-fluid">
+            <div class="nine-in">
+                <div class="nine-main-str">
+                    <div class="nine-one">
+                        <span class="beyondInf">Find Your Nearest Sleep Haven</span>
+                        <h2 class="blackA1">Our Nationwide</p>
+                            <h2 class="blackA1">Retailers</p>
+
+                    </div>
+                    <div class="nine-two">
+                        <div class="nine-flex">
+                            <div class="nine-flexin">
+
+                                <p class="blackgr">While online shopping is convenient, you can't try before you buy,
+                                    which is essential when searching for a new mattress. Don't gamble on a good night's
+                                    sleep!</p>
+                                <p class="blackgr">Our flexible options include bed heights that accommodate existing
+                                    furnishings and bedding, glide and castor bed legs in various heights. We offer
+                                    mattresses featuring fire-retardant fabrics, along with bases available in all
+                                    sizes.</p>
+                            </div>
+
+
+                            <div>
+                                <a href="" class="custom-button filledblue">store locator</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --///---9th end---///-- -->
+
+    <!-- --///---10th str---///-- -->
+
+    <section>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.150841398175!2d77.1125!3d28.7041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0353b1f3cdff%3A0x872d4ecb51638d6f!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1694431696578!5m2!1sen!2sus"
+                allowfullscreen loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- --///---10th end---///-- -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <!-- --///---11th str---///-- -->
+
+
+
+    <section class="fi-res">
+        <!-- <div class="cen-img">
+            <img src="./images/Rectangle 2616.png" alt="">
+        </div> -->
+        <div class="fi-in">
+            <div class="fi-cont-one">
+                <div class="container-fluid">
+                    <div class="fi-con-str-sec">
+                        <div class="">
+                            <span class="beyondInf">Innovative Sleep Solutions</span>
+                            <h2>The Science Behind</h2>
+                            <h2>Your Comfort</h2>
+
+                        </div>
+                        <div class="padding-two">
+
+                            <p class="blackgr">We manufacture the best beds in Australia because we embrace advanced
+                                mattress technologies developed through extensive scientific research, engineering, and
+                                testing. Such innovations in materials, design, and customisation cater to a broader
+                                range of sleep preferences and needs.</p>
+                            <p class="blackgr">What does that mean for you? </p>
+                            <p class="blackgr">More comfortable, supportive, and all-round better sleep.</p>
+                            <div class="sleep-btn-pad">
+                                <a href="" class="custom-button filledblue">sleep solutions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fi-img-one">
+                <img src="./images/Rectangle 2627.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- --///---11th end---///-- -->
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+    <!-- slider part -->
+
+    <section class="slider-container">
+        <div class="container">
+            <div id="slider" class="splide" aria-label="Splide Slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <!-- Slide 1 -->
+                        <li class="splide__slide">
+                            <div class="slider-in">
+                                <div class="slider-in-left">
+                                    <div class="six-txt-one heading white">
+                                        <span class="white">Real Stories  Restful Nights</span>
+                                        <h2>Hear From Our Satisfied Sleepers</h2>
+                                      
+                                    </div>
+                                    <div class="slider-para">
+                                        <h3 class="white">“At Mattress Resources, the unmatched comfort of our luxury sleep products has transformed my sleep quality. Their focus on master craftsmanship and material innovation truly revitalizes the mind and body.”</h3>
+                                    </div>
+                                    <div class="slider-author">
+                                        <span class="author-name">MIA kunis</span>
+                                        <span>balmoral collection hypnos</span>
+                                    </div>
+                                </div>
+                                <div class="slider-right">
+                                    <img src="./images/tumblr_oa2j3d8cTn1smqdb1o1_400.gif" />
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 2 -->
+                        <li class="splide__slide">
+                            <div class="slider-in">
+                                <div class="slider-in-left">
+                                    <div class="six-txt-one heading white">
+                                        <span class="white">Real Stories  Restful Nights</span>
+                                        <h2>Hear From Our Satisfied Sleepers</h2>
+                                      
+                                    </div>
+                                    <div class="slider-para">
+                                        <h3 class="white">“At Mattress Resources, the unmatched comfort of our luxury sleep products has transformed my sleep quality. Their focus on master craftsmanship and material innovation truly revitalizes the mind and body.”</h3>
+                                    </div>
+                                    <div class="slider-author">
+                                        <span class="author-name">MIA kunis</span>
+                                        <span>balmoral collection hypnos</span>
+                                    </div>
+                                </div>
+                                <div class="slider-right">
+                                    <img src="./images/Rectangle 2644.png" />
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+                        <li class="splide__slide">
+                            <div class="slider-in">
+                                <div class="slider-in-left">
+                                    <div class="six-txt-one heading white">
+                                        <span class="white">Real Stories  Restful Nights</span>
+                                        <h2>Hear From Our Satisfied Sleepers</h2>
+                                      
+                                    </div>
+                                    <div class="slider-para">
+                                        <h3 class="white">“At Mattress Resources, the unmatched comfort of our luxury sleep products has transformed my sleep quality. Their focus on master craftsmanship and material innovation truly revitalizes the mind and body.”</h3>
+                                    </div>
+                                    <div class="slider-author">
+                                        <span class="author-name">MIA kunis</span>
+                                        <span>balmoral collection hypnos</span>
+                                    </div>
+                                </div>
+                                <div class="slider-right">
+                                    <img src="./images/345b0e7a2c148f9a538b6c4b367f3c32.gif" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="slider-button">
+                <div id="prevBtn">
+                    <img src="./images/Vector (10).svg" alt="">
+                </div>
+                <div id="nextBtn">
+                    <img src="./images/Vector (9).svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- slider part end  -->
+
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+    <!-- --///---12th str---///-- -->
+
+
+
+    <section class="twe-bg">
+
+        <div class="container-fluid">
+            <div class="twe-in">
+                <div class="twe-one">
+                    <span class="beyondInf-b-font">Your Guide To Better Sleep</span>
+
+                    <h2>Tips, Tricks, and Mattress Care</h2>
+                </div>
+                <div class="twe-two">
+                    <p class="blackgr">Ready to unlock the secrets of better nights and brighter mornings?</p>
+                    <p class="explore-text blackgr">Explore our expert tips and tricks for optimising your sleep
+                        routine, conquering common sleep problems, and caring for your mattress.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="wrapper">
+                <div class="card active" onclick="expandCard(this)">
+                    <div class="card-text">
+
+                        <img src="./images/Rectangle 2629.png" alt="Image 1">
+                        <div class="card-context">
+
+                            <div class="text card-max">Sleep Tips & Advice</div>
+                            <p class="card-max">Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem placerat
+                                auctor eu quis dignissim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" onclick="expandCard(this)">
+                    <div class="card-text">
+
+                        <img src="./images/Rectangle 2631.png" alt="Image 2">
+                        <div class="card-context">
+
+                            <div class="text card-max">Sleeping Science Unveiled</div>
+                            <p class="card-max">Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem placerat
+                                auctor eu quis dignissim.
+                            </p>
+                            <div class="ex-padding">
+                                <a href="" class="custom-button filledblueSec">read blogs</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card" onclick="expandCard(this)">
+                    <div class="card-text">
+
+                        <img src="./images/Rectangle 2629 (1).png" alt="Image 3">
+                        <div class="card-context">
+
+                            <div class="text card-max">Mattress Care Guide</div>
+                            <p class="card-max">Lorem ipsum dolor sit amet consectetur. Etiam etiam lorem placerat
+                                auctor eu quis dignissim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- --///---12th end---///-- -->
+
+
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+    <!-- --///---13th str---///-- -->
+
+    <section class="thirt-res">
+        <div class="thrt-in">
+            <div class="thirt-context">
+                <div class="thirt-one">
+
+                    <span class="beyondInf-b-font">
+                        Personalised Comfort
+                    </span>
+                    <h2>Find Your Perfect</h2>
+                    <h2>Mattress Match</h2>
+                </div>
+
+
+                <div class="twe-two">
+                    <p class="blackgr">Feeling overwhelmed by endless mattress choices?</p>
+                    <p class="explore-text blackgr">We've created the Mattress Matchmaker to guide you to the perfect
+                        night's sleep</p>
+                    <p class="explore-text blackgr">Answer questions about your sleep preferences, body type, and aches
+                        or pains and our smart technology will analyse your information and recommend mattresses best
+                        suited to you. It’s that simple!</p>
+                    <div class="sleep-btn-pad">
+                        <a href="" class="custom-button filledyellow">Mattress matchmaker</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="thirt-img">
+                <img src="./images/image 192.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <div class="thrt-sec">
+        <div class="thrt-sec-one">
+            <div class="thrt-sec-one-context">
+                <div class="thrt-sec-img">
+                    <img src="./images/Vector (5).svg" alt="">
+                </div>
+                <div class="">
+                    <p>Mattress Matchmaker Feature 1</p>
+                </div>
+            </div>
+            <div class="thrt-sec-one-context">
+                <div class="thrt-sec-img">
+                    <img src="./images/Group (6).svg" alt="">
+                </div>
+                <div class="">
+                    <p>Mattress Matchmaker Feature 2</p>
+                </div>
+            </div>
+            <div class="thrt-sec-one-context">
+                <div class="thrt-sec-img">
+                    <img src="./images/Vector (6).svg" alt="">
+                </div>
+                <div class="">
+                    <p>Mattress Matchmaker Feature 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+    <!-- --///---14th str---///-- -->
+
+    <section class="mattress-resource-container">
+        <div class="container-fluid">
+          <div class="mattress-res-in">
+            <div class="mattress-resource-left">
+              <div>
+                  <span class="fillblk">Mattress</span>
+
+                  <span class="fillyellow">Resources</span>
+              </div>
+              <div class="res-left-down">
+                <img src="./images/Rectangle 24899 (1).png" />
+                <img src="./images/Rectangle 24900 (1).png" />
+              </div>
+            </div>
+            <div class="mattress-resource-right">
+              <div class="res-right-up">
+                <p>
+                  Our retailers are located in prominent cities all across
+                  Australia, serving diverse communities nationwide!
+                </p>
+                <div >
+                  <a class="custom-button filledyellow">store locator</a>
+                </div>
+              </div>
+              <div class="res-right-down">
+                <img src="./images/Rectangle 24931 (1).png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- --///---14th end---///-- -->
+
+
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+
+
+    <!-- --///---footer str---///-- -->
+
+
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="footer-in">
+                <div class="footer-top">
+                    <div class="ft-up">
+                        <div class="ft-up-l"><img src="./images/MR Logo 320x65 1.svg" alt="Logo"></div>
+                        <div class="ft-up-r">
+                            <p class="white">For any doubts</p>
+                            <a href="" class="custom-button filledblueBorder">Contact Us</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="ft-down">
+                        <div class="ft-down-wrap">
+                            <div>
+                                <p>Who we are</p>
+                                <ul>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Australian made mattresses</a></li>
+                                    <li><a href="">News and updates</a></li>
+                                    <li><a href="">Partnership</a></li>
+                                    <li><a href="">Technology</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Brands</p>
+                                <ul>
+                                    <li><a href="">Hypnos</a></li>
+                                    <li><a href="">Tommy bahamas</a></li>
+                                    <li><a href="">Therapedic</a></li>
+                                    <li><a href="">Hollis Bedroom</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Brands & Headboards</p>
+                                <ul>
+                                    <li><a href="">Headboard</a></li>
+                                    <li><a href="">Base</a></li>
+                                    <li><a href="">Adjustable bed</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Sleep lab</p>
+                                <ul>
+                                    <li><a href="">Sleep tips & advice</a></li>
+                                    <li><a href="">Blogs</a></li>
+                                    <li><a href="">Mattress care guide</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Customer care</p>
+                                <ul>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">Troubleshooting</a></li>
+                                    <li><a href="">FAQs</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div>
+                                    <p class="white p-sm">Mattress Resources Australia is a proud Australian
+                                        manufacturer that has been
+                                        producing bedding for over 50 years.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="fb-top">
+                        <div class="fb-top-wrap">
+                            <div>
+                                <p>Mattress</p>
+                                <ul>
+                                    <li><a href="">View All</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>By brands</p>
+                                <ul>
+                                    <li><a href="">Hypnos</a></li>
+                                    <li><a href="">Tommy bahamas</a></li>
+                                    <li><a href="">Therapedic</a></li>
+                                    <li><a href="">Hollis Bedroom</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>By comfort</p>
+                                <ul>
+                                    <li><a href="">Firm</a></li>
+                                    <li><a href="">Medium</a></li>
+                                    <li><a href="">Plush</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>By type</p>
+                                <ul>
+                                    <li><a href="">Spring</a></li>
+                                    <li><a href="">Memory Foam</a></li>
+                                    <li><a href="">Hybrid</a></li>
+                                    <li><a href="">Temperature</a></li>
+                                    <li><a href="">Orthopaedic</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>By size</p>
+                                <ul>
+                                    <li><a href="">Single</a></li>
+                                    <li><a href="">Long Single</a></li>
+                                    <li><a href="">King Single</a></li>
+                                    <li><a href="">Double</a></li>
+                                    <li><a href="">Long Double</a></li>
+                                    <li><a href="">Queen</a></li>
+                                    <li><a href="">Split Queen</a></li>
+                                    <li><a href="">King</a></li>
+                                    <li><a href="">Super King</a></li>
+                                </ul>
+                            </div>
+                            <div></div>
+                            <div class="form-grid">
+                                <p>Subscribe to updates</p>
+                                <form action="" class="email-form">
+                                    <input type="email" class="email" title="Email" placeholder="Your Email Address">
+                                    <button type="submit" class="submit-form" title="Submit"><img
+                                            src="./images/Vector (8).svg" alt=""></button>
+                                </form>
+                                <p class="email-fb-text">*By entering your email address and clicking "Submit" you agree
+                                    to receive
+                                    updates from the Mattress Resources Australia about our work. </p>
+                            </div>
+                            <div class="redirect-grid">
+                                <div>
+                                    <a href="">Register product</a>
+                                </div>
+                                <div>
+                                    <a href="">Warranty claim</a>
+                                </div>
+                                <div>
+                                    <a href="">Mattress matchmaker</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="fb-down">
+                        <div class="fb-down-wrap">
+                            <div>
+                                <p>All rights reserved and product information protected by Mattress Resources Australia
+                                </p>
+                            </div>
+                            <div class="social">
+                                <p class="white">Follow us at</p>
+                                <div><img src="./images/Vector (7).svg" alt=""></div>
+                                <div><img src="./images/instagram.svg" alt=""></div>
+                                <div><img src="./images/linkedin.svg" alt=""></div>
+
+                            </div>
+                            <div class="policy">
+                                <ul>
+                                    <li><a href="">Privacy policy</a></li>
+                                    <li><a href="">Terms of service</a></li>
+                                    <li><a href="">Disclaimer</a></li>
+                                    <li><a href="">Cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- --///---footer end---///-- -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/js/splide.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

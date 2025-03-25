@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Light.woff2") format("woff2"),
+    url("TeodorTRIAL-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Thin.woff2") format("woff2"),
+    url("TeodorTRIAL-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Medium.woff2") format("woff2"),
+    url("TeodorTRIAL-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Bold.woff2") format("woff2"),
+    url("TeodorTRIAL-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-SemiBold.woff2") format("woff2"),
+    url("TeodorTRIAL-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Regular.woff2") format("woff2"),
+    url("TeodorTRIAL-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-Heavy.woff2") format("woff2"),
+    url("TeodorTRIAL-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TeodorTRIAL";
+  src: url("TeodorTRIAL-ExtraBold.woff2") format("woff2"),
+    url("TeodorTRIAL-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BeyondInfinity";
+  src: url("BeyondInfinity.woff2") format("woff2"),
+    url("BeyondInfinity.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
