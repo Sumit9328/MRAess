@@ -39,7 +39,7 @@ function expandCard(clickedCard) {
 
 document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide("#slider", {
-    type: "loop", // Loop mode enabled
+    type: "fade", // Loop mode enabled
     rewind: true,
     pagination: false,
     arrows: false,
