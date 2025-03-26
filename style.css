@@ -1872,7 +1872,7 @@ header {
 }
 .mobile-nav-top ul li a {
   text-transform: uppercase;
-  color: var(--white);
+  color: white;
   font-size: 12px;
   letter-spacing: 2px;
 }
