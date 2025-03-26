@@ -406,7 +406,7 @@ body {
 .thr-img img {
   width: 100%;
   height: 100%;
-  min-height: 600px;
+  min-height: 0px;
   object-fit: cover;
 }
 
@@ -625,6 +625,11 @@ body {
 .six-hvr {
   position: relative;
   width: 33.33%;
+}
+
+.six-hvr-img{
+  width: 100%;
+  height: 100%;
 }
 
 .six-hvr-img img {
@@ -999,6 +1004,7 @@ body {
   z-index: 2;
 }
 
+
 /* last second */
 
 .mattress-resource-container {
@@ -1078,7 +1084,7 @@ body {
 
   .seven-bg {
     background-color: #041948;
-    padding: 55px 15px;
+    padding: 5px 10px;
   }
 .six-th-in{
   padding: 65px 0px;
@@ -1366,7 +1372,14 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 31px;
   }
-
+  .thrt-sec {
+    /* margin-top: -215px; */
+    bottom: 22%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
   .social {
     display: none;
   }
@@ -1700,7 +1713,7 @@ body {
 
   body h2 {
     text-align: start;
-    font-size: 28px;
+    font-size: 27px;
   }
   .fr-two-text p {
     font-size: 16px;
@@ -1722,9 +1735,14 @@ body {
 
 @media screen and (max-width: 480px) {
   .fr-one-text h2 {
-    font-size: 28px;
+    font-size: 27px;
   }
-
+  .fi-img-one img {
+    width: 100%;
+    height: 100%;
+    min-height: 0px;
+    object-fit: cover;
+}
   .fr-two-text p {
     font-size: 16px;
   }
@@ -1960,7 +1978,7 @@ header {
     flex-direction: column;
     gap: 60px;
     box-sizing: border-box;
-    padding: 45px 20px;
+    padding: 45px 0px;
   }
   .thr-in {
     position: relative;
@@ -2043,10 +2061,36 @@ header {
     width: 105px;
     height: 73px;
     position: absolute;
-    top: 53%;
+    top: 62%;
     left: 63%;
     z-index: 2;
   }
+
+  .center-img-one-sec img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .center-img-one-sec {
+    width: 105px;
+    height: 73px;
+    position: absolute;
+    top: 53%;
+    left: 64%;
+    z-index: 2;
+  }
+  .card-max {
+    max-width: 40ch;
+    text-align: start;
+}
+  .span-tx {
+    text-align: start;
+    font-weight: 400;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
 }
 
 /* third-section */
@@ -2061,6 +2105,7 @@ header {
     padding-bottom: 10px;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    padding-top: 41px;
   }
 
   .six-img-hvr::-webkit-scrollbar {
@@ -2071,17 +2116,30 @@ header {
     flex: 0 0 90%;
     scroll-snap-align: center;
     text-align: center;
+    position: relative;
+    width: 31.11%;
+    aspect-ratio: 3 / 4;
   }
 
   .six-hvr-img img {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .six-context {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
-
+  h3 {
+    font-family: "TeodorTRIAL";
+    font-weight: 00;
+    font-size: 35px;
+    line-height: 120%;
+    color: #1a1a1a;
+    text-align: start;
+}
   .custom-button {
     width: 100%;
     display: block;
@@ -2101,7 +2159,7 @@ header {
     gap: 40px;
     margin-left: auto;
     box-sizing: border-box;
-    padding: 60px 10px;
+    padding: 30px 10px;
   }
 
   .th-in-content-one {
@@ -2172,7 +2230,6 @@ header {
 
   .card img {
     width: 100%;
-    height: auto;
   }
 
   .card-context {
