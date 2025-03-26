@@ -703,6 +703,11 @@ body {
   padding: 150px 0 150px 180px;
 }
 
+.store-locator-btn-ls {
+  width: 50%;
+  padding: 20px 0;
+}
+
 /* <!-- --///---8th end---///-- --> */
 
 /* <!-- --///---9th str---///-- --> */
@@ -942,6 +947,7 @@ body {
   position: absolute;
   z-index: 2;
   width: 100%;
+  height: 100%;
 }
 
 .thrt-in {
@@ -1015,6 +1021,7 @@ body {
   flex-direction: column;
   gap: 5px;
 }
+
 .res-left-up span {
   font-size: 133px;
   font-family: "Teodor TRIAL";
@@ -1068,6 +1075,29 @@ body {
   .res-left-up span {
     font-size: 100px;
   }
+
+  .seven-bg {
+    background-color: #041948;
+    padding: 55px 15px;
+  }
+.six-th-in{
+  padding: 65px 0px;
+}
+  .res-left-down {
+    display: flex;
+    gap: 10px;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    /* bottom: 0; */
+    left: 194px;
+    top: 270px;
+  }
+
+  .res-left-down img {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 1023px) {
   .res-left-up span {
@@ -1089,6 +1119,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+  }
+  .res-right-up {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    padding-bottom: 80px;
   }
   .res-right-up p {
     max-width: 100%;
@@ -1311,11 +1347,11 @@ body {
   cursor: pointer;
 }
 
-.footer-display-part{
+.footer-display-part {
   display: none;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   gap: 30px;
 }
@@ -1331,12 +1367,11 @@ body {
     gap: 31px;
   }
 
-  .social{
+  .social {
     display: none;
   }
 
-
-  .footer-display-part{
+  .footer-display-part {
     display: block;
     display: flex;
     flex-direction: column;
@@ -1344,7 +1379,6 @@ body {
     padding-top: 31px;
     border-top: 1px solid #fff;
   }
-
 
   .footer-top .ft-up .ft-up-r {
     display: flex;
@@ -1404,8 +1438,6 @@ body {
     padding: 10px;
   }
 
-
-
   .policy ul {
     display: flex;
     flex-wrap: wrap;
@@ -1430,7 +1462,7 @@ body {
     border: 1px solid #fff;
     color: #fff;
     padding: 10px 20px;
-}
+  }
   .fb-down-wrap p {
     font-size: 12px;
   }
@@ -1885,10 +1917,13 @@ header {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 42px;
+    font-size: 39px;
     text-align: center;
     line-height: 90%;
   }
+  .fi-con-str h2 {
+    max-width: 20ch;
+}
   .display-para {
     display: block;
     font-size: 35px;
@@ -1985,8 +2020,12 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px 200px;
-    top: -463px;
+    bottom: -53%;
     left: -62px;
+  }
+
+  .thrt-in {
+    padding-bottom: 0px;
   }
 
   .thrt-sec-one-context {
@@ -2095,7 +2134,7 @@ header {
   .fi-con-str-sec {
     display: flex;
     flex-direction: column;
-    gap: 155px;
+    gap: 30px;
     padding: 30px 0;
     /* padding: 70px 149px 90px 100px; */
   }
