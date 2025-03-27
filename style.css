@@ -2451,7 +2451,7 @@ header {
     font-weight: 400;
     color: white;
     font-family: "Lato", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 145%;
   }
   h3 {
@@ -2470,7 +2470,7 @@ header {
     justify-content: flex-end;
     top: 0;
     gap: 12px;
-    padding: 0px 30px 10px 13px;
+    padding: 0px 30px 25px 13px;
   }
   h3 {
     font-family: "TeodorTRIAL";
@@ -2573,9 +2573,13 @@ header {
     padding-bottom: 40px;
     display: flex;
     /* justify-content: space-between; */
-    gap: 31px;
+    gap: 15px;
     padding-top: 31px;
     align-items: center;
+  }
+
+  .slider-para h3 {
+    font-size: 24px;
   }
   .mattress-res-in {
     display: grid;
@@ -2626,7 +2630,7 @@ header {
   h3 {
     font-family: "TeodorTRIAL";
     font-weight: 400;
-    font-size: 25px;
+    font-size: 34px;
     line-height: 120%;
     color: #1a1a1a;
   }
