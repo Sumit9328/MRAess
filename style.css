@@ -45,7 +45,7 @@ h2 {
 
 h3 {
   font-family: "TeodorTRIAL";
-  font-weight: 00;
+  font-weight: 400;
   font-size: 35px;
   line-height: 120%;
   color: #1a1a1a;
@@ -53,7 +53,7 @@ h3 {
 
 h4 {
   font-family: "TeodorTRIAL";
-  font-weight: 00;
+  font-weight: 400;
   font-size: 32px;
   line-height: 120%;
   color: #1a1a1a;
@@ -166,7 +166,7 @@ ol {
 
 .spacer {
   width: 100%;
-  height: 60px;
+  height: 100px;
   background-color: #f0ece4;
 }
 
@@ -506,7 +506,7 @@ body {
 
 .fi-cont-one {
   position: relative;
-  width: 50%;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -613,6 +613,8 @@ body {
 
 .fi-con-str {
   padding: 70px 90px;
+
+  width: 50%;
 }
 /* <!-- --///---5th end---///-- --> */
 
@@ -627,7 +629,7 @@ body {
   width: 33.33%;
 }
 
-.six-hvr-img{
+.six-hvr-img {
   width: 100%;
   height: 100%;
 }
@@ -775,6 +777,7 @@ body {
 
 .fi-con-str-sec {
   display: flex;
+  width: 50%;
   flex-direction: column;
   gap: 155px;
   padding: 70px 149px 90px 100px;
@@ -1004,7 +1007,6 @@ body {
   z-index: 2;
 }
 
-
 /* last second */
 
 .mattress-resource-container {
@@ -1086,9 +1088,9 @@ body {
     background-color: #041948;
     padding: 5px 10px;
   }
-.six-th-in{
-  padding: 65px 0px;
-}
+  .six-th-in {
+    padding: 65px 0px;
+  }
   .res-left-down {
     display: flex;
     gap: 10px;
@@ -1374,12 +1376,12 @@ body {
   }
   .thrt-sec {
     /* margin-top: -215px; */
-    bottom: 22%;
+    bottom: 6%;
     position: absolute;
     z-index: 2;
     width: 100%;
     height: auto;
-}
+  }
   .social {
     display: none;
   }
@@ -1542,7 +1544,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .ft-down-wrap {
     grid-template-columns: 1fr;
   }
@@ -1706,7 +1708,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .fr-one-text h2 {
     font-size: 22px;
   }
@@ -1742,7 +1744,7 @@ body {
     height: 100%;
     min-height: 0px;
     object-fit: cover;
-}
+  }
   .fr-two-text p {
     font-size: 16px;
   }
@@ -1756,6 +1758,16 @@ body {
     width: 100%;
     height: 100%;
   }
+  .th-in-content {
+    /* width: 50%; */
+    display: flex
+;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: auto;
+    box-sizing: border-box;
+    /* padding: 50px 0 50px 32px; */
+}
 }
 
 /* //////header res///////// */
@@ -1875,8 +1887,10 @@ header {
 }
 .mobile-nav.active {
   left: 0;
-  position: absolute;
+  position: fixed;
+  top: 97px;
 }
+
 .mobile-nav-in {
   padding: 40px 0;
   display: flex;
@@ -1933,7 +1947,7 @@ header {
 
 /* second section */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 39px;
     text-align: center;
@@ -1941,7 +1955,7 @@ header {
   }
   .fi-con-str h2 {
     max-width: 20ch;
-}
+  }
   .display-para {
     display: block;
     font-size: 35px;
@@ -1994,7 +2008,7 @@ header {
 
 /* third-section */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .fi-img-one {
     position: static;
     top: 0;
@@ -2070,7 +2084,7 @@ header {
     width: 100%;
     height: 100%;
   }
-  
+
   .center-img-one-sec {
     width: 105px;
     height: 73px;
@@ -2082,7 +2096,7 @@ header {
   .card-max {
     max-width: 40ch;
     text-align: start;
-}
+  }
   .span-tx {
     text-align: start;
     font-weight: 400;
@@ -2090,13 +2104,13 @@ header {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     line-height: 150%;
-}
+  }
 }
 
 /* third-section */
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .six-img-hvr {
     display: flex;
     overflow-x: auto;
@@ -2134,12 +2148,12 @@ header {
   }
   h3 {
     font-family: "TeodorTRIAL";
-    font-weight: 00;
+    font-weight: 400;
     font-size: 35px;
     line-height: 120%;
     color: #1a1a1a;
     text-align: start;
-}
+  }
   .custom-button {
     width: 100%;
     display: block;
@@ -2150,7 +2164,7 @@ header {
 /* ///////////end ///////// */
 
 /* fourth section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .th-in-content-sec {
     width: 100%;
     display: flex;
@@ -2207,7 +2221,7 @@ header {
 }
 
 /* Responsive for Phones - Convert cards into a sliding effect */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .wrapper {
     display: flex;
     overflow-x: auto;
@@ -2248,7 +2262,7 @@ header {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .thirt-img {
     position: static;
     top: 0;
@@ -2277,4 +2291,489 @@ header {
   .last-matt {
     font-size: 28px;
   }
+}
+/* /////////////////res for 1024px/////////////////// */
+
+@media screen and (max-width: 1024px) {
+  .fi-con-str {
+    padding: 39px 90px 40px 0px;
+  }
+
+  .six-th-in {
+    padding: 5px 0px;
+  }
+
+  .six-hvr {
+    position: relative;
+    width: 31.33%;
+    aspect-ratio: 3/4;
+  }
+  .six-context {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    top: 0;
+    gap: 12px;
+    padding: 0px 40px 17px 10px;
+  }
+  .seven-bg {
+    background-color: #041948;
+    padding: 40px 10px;
+  }
+
+  .th-in-content-sec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 25px 15px 25px 50px;
+  }
+  .center-img-one-sec {
+    display: none;
+  }
+  .fi-con-str-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 155px;
+    width: 50%;
+    padding: 60px 40px 60px 10px;
+  }
+
+  .thirt-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+  }
+  .thirt-context {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    top: 0;
+    gap: 20px;
+    padding: 60px 40px 60px 25px;
+  }
+
+  .thrt-sec-one-context {
+    background-color: #eae1cd;
+    gap: 40px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mattress-res-in {
+    display: grid;
+    padding-top: 0px;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  h3 {
+    font-family: "TeodorTRIAL";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    color: #1a1a1a;
+  }
+
+  .slider-para {
+    padding-top: 25px;
+    max-width: 83ch;
+  }
+
+  h2 {
+    font-family: "TeodorTRIAL";
+    font-size: 34px;
+    line-height: 105%;
+    color: #1a1a1a;
+  }
+  .twe-in {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-bottom: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .th-in-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 50px 0 50px 32px;
+  }
+
+  h1 {
+    font-family: "TeodorTRIAL";
+    font-weight: 350;
+    font-size: 87px;
+    line-height: 80%;
+    font-size: 42px;
+  }
+
+  .fi-con-str {
+    padding: 28px 15px 40px 0px;
+  }
+  .center-img-one img {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .heading p {
+    margin-top: 8px;
+    font-weight: 400;
+    color: #5d5d5d;
+  }
+
+  .six-th-in {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .span-tx {
+    font-weight: 400;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 145%;
+  }
+  h3 {
+    font-family: "TeodorTRIAL";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #1a1a1a;
+  }
+  .six-context {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    top: 0;
+    gap: 12px;
+    padding: 0px 30px 10px 13px;
+  }
+  h3 {
+    font-family: "TeodorTRIAL";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    color: #1a1a1a;
+  }
+  .custom-button {
+    display: inline-block;
+    padding: 9px 10px;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 1px;
+    transition: 0.3s ease all;
+    border: 1px solid transparent;
+    text-decoration: none;
+  }
+  .flex-btw {
+    padding-bottom: 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 31px;
+    align-items: center;
+  }
+  .six-th-in {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .th-in-content-sec {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 25px 4px 25px 30px;
+  }
+  h2 {
+    font-family: "TeodorTRIAL";
+    font-size: 40px;
+    line-height: 105%;
+    color: #1a1a1a;
+  }
+  .fi-con-str-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 50%;
+    padding: 60px 15px 60px 0px;
+  }
+  h2 {
+    font-family: "TeodorTRIAL";
+    font-size: 32px;
+    line-height: 105%;
+    color: #1a1a1a;
+  }
+  .slider-author {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-top: 15px;
+  }
+  .card-context {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px 16px 40px 15px;
+  }
+  .thirt-context {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    top: 0;
+    gap: 20px;
+    padding: 40px 8px 40px 15px;
+  }
+  .thrt-sec-img {
+    width: 75px;
+    height: 85px;
+  }
+  .flex-btw {
+    padding-bottom: 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 31px;
+    padding-top: 31px;
+    align-items: center;
+  }
+  .mattress-res-in {
+    display: grid;
+    padding-top: 0px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fillblk {
+    color: #000000;
+    font-size: 80px;
+  }
+  .fillyellow {
+    color: #cc922f;
+    font-size: 80px;
+  }
+  .mattress-resource-left {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .fb-down-wrap .social {
+    display: flex;
+    gap: 24px;
+    display: none;
+    justify-content: center;
+  }
+  .email-form .submit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .th-in-content {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: auto;
+    box-sizing: border-box;
+    /* padding: 50px 0 50px 32px; */
+  }
+  .th-in-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 30px 0 30px 5px;
+  }
+  h1 {
+    font-family: "TeodorTRIAL";
+    font-weight: 350;
+    font-size: 87px;
+    line-height: 80%;
+    font-size: 35px;
+  }
+  .th-in-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 30px 0 30px 5px;
+  }
+  .fr-one-text h2 {
+    font-size: 23px;
+  }
+  .fr-two-text p {
+    font-size: 14px;
+  }
+  .fi-con-str {
+    width: 100%;
+    padding: 28px 0px 20px 0px;
+  }
+  p {
+    line-height: 150%;
+    text-align: start;
+    font-size: 13px;
+  }
+
+  .six-th-in {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .seven-bg {
+    background-color: #041948;
+    padding: 16px 10px;
+  }
+  .th-in-content-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 25px 0px 25px 0px;
+  }
+  .fi-con-str-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
+  .sleep-btn-pad {
+    padding-top: 16px;
+  }
+  .slider-container {
+    background-color: #2e3b57;
+    padding: 30px 10px;
+    overflow: hidden;
+  }
+  .twe-bg {
+    background-color: #f0ece4;
+    padding: 30px 0px;
+  }
+  .thirt-img {
+    position: static;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+  .thirt-context {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    top: 0;
+    gap: 20px;
+    padding: 0px 8px 40px 15px;
+  }
+  .twe-two {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .thrt-sec {
+    /* margin-top: -215px; */
+    bottom: 10%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+  }
+
+  .mattress-res-in {
+    /* display: grid
+; */
+    padding: 25px 0;
+    /* grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fillyellow {
+    color: #cc922f;
+    font-size: 55px;
+  }
+  .fillblk {
+    color: #000000;
+    font-size: 55px;
+  }
+  .mattress-text {
+    display: flex;
+    flex-direction: column;
+    gap: -4px;
+    line-height: 52px;
+  }
+
+  .res-right-up {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 80px;
+  }
+  .res-left-down {
+    display: flex
+;
+    gap: 10px;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    /* bottom: 0; */
+    left: 131px;
+    top: 290px;
+}
 }
