@@ -2622,6 +2622,14 @@ header {
     box-sizing: border-box;
     /* padding: 50px 0 50px 32px; */
   }
+
+  h3 {
+    font-family: "TeodorTRIAL";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    color: #1a1a1a;
+  }
   .th-in-content {
     width: 100%;
     display: flex;
