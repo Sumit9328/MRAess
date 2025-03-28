@@ -217,6 +217,7 @@ ol {
   display: flex;
   /* justify-content: space-between; */
   gap: 31px;
+  padding: 40px 0;
   align-items: center;
 }
 
@@ -431,7 +432,7 @@ body {
   gap: 60px;
   margin-left: auto;
   box-sizing: border-box;
-  padding: 50px 0 50px 110px;
+  padding: 50px 0 50px 60px;
 }
 
 .th-in-content-one {
@@ -612,7 +613,7 @@ body {
 }
 
 .fi-con-str {
-  padding: 70px 90px;
+  padding: 70px 50px;
 
   width: 50%;
 }
@@ -1689,7 +1690,13 @@ body {
   .fr-main-cen {
     text-align: center;
   }
-
+  .flex-btw {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 31px;
+    padding: 30px 0;
+    align-items: center;
+  }
   .fr-gap {
     padding: 0px;
     text-align: start;
@@ -1760,14 +1767,13 @@ body {
   }
   .th-in-content {
     /* width: 50%; */
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     gap: 60px;
     margin-left: auto;
     box-sizing: border-box;
     /* padding: 50px 0 50px 32px; */
-}
+  }
 }
 
 /* //////header res///////// */
@@ -2616,7 +2622,7 @@ header {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .th-in-content {
     /* width: 50%; */
     display: flex;
@@ -2778,8 +2784,7 @@ header {
     padding-bottom: 80px;
   }
   .res-left-down {
-    display: flex
-;
+    display: flex;
     gap: 10px;
     width: 80px;
     height: 70px;
@@ -2787,5 +2792,59 @@ header {
     /* bottom: 0; */
     left: 131px;
     top: 290px;
+  }
+  .custom-button {
+    display: inline-block;
+    padding: 9px 10px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 1px;
+    transition: 0.3s ease all;
+    border: 1px solid transparent;
+    text-decoration: none;
+  }
+  .p-italic {
+    font-family: "BeyondInfinity";
+    font-weight: 400;
+    font-size: 34px;
+    color: #cc922f;
+    text-align: center;
+    line-height: 100%;
+  }
+  .slider-right img {
+    width: 15%;
+    /* height: 12%; */
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
 }
+}
+
+.no-scroll {
+  overflow: hidden;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+@media screen and (max-width: 1440px) {
+   .center-img-one-sec {
+    position: absolute;
+    z-index: 2;
+    top: 42%;
+    left: 41%;
+
+  }
+
+  /*
+  .th-in-content-sec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 80px 0px 80px 160px;
+  } */
+ 
 }
