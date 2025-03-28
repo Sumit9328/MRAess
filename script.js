@@ -84,3 +84,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// @media screen and (max-width: 480px) {
+//   .fr-one-text h2 {
+//     font-size: 27px;
+//   }
+//   .fi-img-one img {
+//     width: 100%;
+//     height: 100%;
+//     min-height: 0px;
+//     object-fit: cover;
+//   }
+//   .fr-two-text p {
+//     font-size: 16px;
+//   }
+
+//   .fr-logo {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//   }
+
+//   .fr-lg-one img {
+//     width: 100%;
+//     height: 100%;
+//   }
+//   .th-in-content {
+//     /* width: 50%; */
+//     display: flex;
+//     flex-direction: column;
+//     gap: 60px;
+//     margin-left: auto;
+//     box-sizing: border-box;
+//     /* padding: 50px 0 50px 32px; */
+//   }
+// }
