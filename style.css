@@ -2095,6 +2095,7 @@ header {
     font-size: 14px;
     line-height: 150%;
   }
+  
 }
 
 /* third-section */
@@ -3170,7 +3171,7 @@ header {
   }
   .beyondInf {
     font-family: "BeyondInfinity";
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 100%;
     color: #cc922f;
@@ -3457,7 +3458,7 @@ header {
     padding: 2px 30px 60px 24px;
   }
   .six-hvr {
-    flex: 0 0 63%;
+    flex: 0 0 85%;
     scroll-snap-align: center;
     text-align: center;
     position: relative;
@@ -3500,7 +3501,7 @@ header {
     z-index: 2;
     width: 100%;
     height: auto;
-    left: 33%;
+    left: 0;
   }
   .custom-button {
     display: inline-block;
@@ -3787,7 +3788,7 @@ header {
     gap: 60px;
     margin-left: auto;
     box-sizing: border-box;
-    /* padding: 50px 0 50px 20px; */
+    padding: 50px 0 50px 20px;
   }
   .res-left-down {
     display: flex;
@@ -3796,8 +3797,8 @@ header {
     height: 70px;
     position: absolute;
     /* bottom: 0; */
-    left: 60%;
-    top: 237px;
+    left: 55%;
+    top: 250px;
   }
 }
 
@@ -3809,10 +3810,17 @@ header {
     line-height: 80%;
     font-size: 70px;
     font-size: 32px !important;
-  }
-  .th-in-content {
-    padding: 30px 10px;
-  }
+}
+.th-in-content {
+  width: 100%;
+  display: flex
+;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 50px 0 50px 20px !important;
+}
   .fi-con-str {
     padding: 30px 0px;
     width: 100%;
@@ -3886,4 +3894,12 @@ header {
     left: 47%;
     top: 251px;
   }
+  .six-hvr {
+    flex: 0 0 90%;
+    scroll-snap-align: center;
+    text-align: center;
+    position: relative;
+    width: 31.11%;
+    aspect-ratio: 3 / 4;
+}
 }
