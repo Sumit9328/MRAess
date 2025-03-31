@@ -117,3 +117,103 @@ document.addEventListener("DOMContentLoaded", function () {
 //     /* padding: 50px 0 50px 32px; */
 //   }
 // }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+// GSAP animation for the image (animate-img)
+    gsap.from(".animate-img", {
+        opacity: 0, 
+        x: -100, 
+        duration: 1.5,
+        ease: "power2.out"
+    });
+
+    // GSAP animation for the text content (animate-content)
+    gsap.from(".animate-content", { 
+        opacity: 0, 
+        y: 50, 
+        duration: 1.5, 
+        delay: 0.5,
+        ease: "power2.out"
+    });
+
+    // GSAP animation for the heading (animate-heading)
+    gsap.from(".animate-heading h1", { 
+        opacity: 0, 
+        y: -30, 
+        duration: 1, 
+        delay: 0.8 
+    });
+
+    // GSAP animation for the paragraphs (animate-text)
+    gsap.from(".animate-text p", { 
+        opacity: 0, 
+        y: 30, 
+        duration: 1, 
+        delay: 1, 
+        stagger: 0.3 // Staggered animation
+    });
+
+    // GSAP animation for the footer (animate-footer)
+    gsap.from(".animate-footer", { 
+        opacity: 0, 
+        y: 50, 
+        duration: 1, 
+        delay: 1.5 
+    });
+
+    // GSAP animation for the button (animate-button)
+    gsap.from(".animate-button", { 
+        opacity: 0, 
+        scale: 0.5, 
+        duration: 1, 
+        delay: 2 
+    });
+
+
+    ////////////////////////////////
+
+
+
+
+    gsap.from(".fr-one-text", {
+      opacity: 0,
+      y: 50,
+      duration: 1.5,
+      ease: "power2.out",
+      delay: 0.5
+  });
+
+  // GSAP animation for the second text block (fr-two-text)
+  gsap.from(".fr-two-text p", {
+      opacity: 0,
+      y: 30,
+      duration: 1.5,
+      delay: 1,
+      stagger: 0.3 // Staggered animation for each paragraph
+  });
+
+  // GSAP animation for the logo images (fr-logo)
+  gsap.from(".fr-logo .fr-lg-one img", {
+      opacity: 0,
+      scale: 0.8,
+      duration: 1,
+      delay: 1.5,
+      stagger: 0.2, // Staggered animation for each logo
+      ease: "power2.out"
+  });
+
+
+
+  
