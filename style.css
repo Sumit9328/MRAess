@@ -1418,10 +1418,7 @@ body {
     width: 100%;
   }
 
-  .ft-down-wrap div,
-  .fb-top-wrap div {
-    /* width: 100%; */
-  }
+
 
   .footer-in {
     padding: 0px;
@@ -1732,7 +1729,11 @@ body {
     height: auto;
   }
 }
+.fr-lg-one{
+  display: flex;
+  align-items: center;
 
+}
 @media screen and (max-width: 767px) {
   .fr-one-text h2 {
     font-size: 22px;
@@ -1752,7 +1753,7 @@ body {
   }
 
   .fr-lg-one img {
-    max-width: 70%;
+    max-width: 100%;
   }
   .fr-logo {
     display: grid;
@@ -2155,7 +2156,7 @@ header {
 /* ///////////end ///////// */
 
 /* fourth section */
-@media screen and (max-width: 781px) {
+@media screen and (max-width: 780px) {
   .th-in-content-sec {
     width: 100%;
     display: flex;
@@ -2185,7 +2186,7 @@ header {
   .custom-button.filledblue {
     background-color: #172a55;
     color: #fff;
-    padding: 12px 0px;
+    padding: 12px 30px;
   }
 
   .nine-main-str {
@@ -3046,8 +3047,6 @@ header {
 /* Max Width 991px Ends */
 /* Max Width 767px */
 
-@media screen and (max-width: 767px) {
-}
 /* Max Width 767px Ends */
 /* Responsive Css Ends */
 
@@ -3560,6 +3559,7 @@ header {
     display: grid;
   }
 }
+
 @media screen and (max-width: 655px) {
   .custom-button {
     display: inline-block;
@@ -3661,6 +3661,12 @@ header {
 }
 
 @media screen and (max-width: 340px) {
+  .fi-img-one img {
+    width: 100%;
+    height: 100%;
+    min-height: 0px;
+    object-fit: cover;
+} 
   .fillyellow {
     color: #cc922f;
     font-size: 44px;

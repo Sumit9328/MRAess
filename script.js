@@ -140,14 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // GSAP animation for the text content (animate-content)
-    gsap.from(".animate-content", { 
-        opacity: 0, 
-        y: 50, 
-        duration: 1.5, 
-        delay: 0.5,
-        ease: "power2.out"
-    });
-
+    
     // GSAP animation for the heading (animate-heading)
     gsap.from(".animate-heading h1", { 
         opacity: 0, 
